@@ -31,17 +31,25 @@ img {
 }
 
 .btn {
-  padding: 20px 40px;
+  padding: 15px 20px;
+  font-family: 'Work Sans', sans-serif;
   color: #fff;
   font-size: 1.25rem;
   font-weight: 500;
   text-transform: uppercase;
   border-radius: 48px;
-  border: 0;
+  border: 1px solid #0B0223;
+  border-color: transparent;
+}
+.btn:hover, .btn-primary:hover{
+    background-color: transparent;
+    border: 1px solid #0b0223;
+    color: #0b0223;
 }
 
 .btn-primary {
-  padding: 20px 40px;
+  padding: 15px 20px;
+  font-family: 'Work Sans', sans-serif;
   color: #fff;
   font-size: 1.125rem;
   font-weight: 500;
@@ -111,6 +119,7 @@ nav .follow {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 2.5rem;
 }
 .hero-section .content{}
 .hero-section .features{
